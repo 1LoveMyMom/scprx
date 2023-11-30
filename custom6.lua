@@ -64,10 +64,10 @@ end
 
 
 function protectionKey()
-  p = gg.prompt({"Protection Key:"}, {"test"}, {"text"})
+  p = gg.prompt({"Protection Key:"}, {""}, {"text"})
   if p == nil then
   else
-  if p[1] == "" then
+  if p[1] == "test" then
     console = console..n.."Protection key is correct.\n"
     gg.toast("\nProtection key is correct.")
     zindex = 2
@@ -409,6 +409,8 @@ end
 
 
 
+
+gg.toast("\nScript Loaded.")
 
 zindex = 1
 while true do
