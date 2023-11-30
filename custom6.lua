@@ -64,7 +64,7 @@ end
 
 
 function protectionKey()
-  p = gg.prompt({"Protection Key:"}, {""}, {"text"})
+  p = gg.prompt({"Protection Key:"}, {"test"}, {"text"})
   if p == nil then
   else
   if p[1] == "" then
