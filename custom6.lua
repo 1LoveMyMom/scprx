@@ -336,7 +336,7 @@ function mainMenu()
       gg.setVisible(false)
     end
     gg.clearList()
-    ofsetOffsets = 0x100
+    ofsetOffsets = 0x168
     gg.sleep("200")
     ofsets()
     gg.clearResults()
