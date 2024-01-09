@@ -85,7 +85,7 @@ end
 
 
 function mainMenu()
-  m1 = gg.choice({"| Timer Reseter |", "| Vu Pass T1 All 48k Simcash |", "| 40m Simoleon |", "| Currency Pointer |", "| EXIT |", "| CONSOLE |", "| ABOUT |"},nil,"[BETA x"..deviceBit.."] Premium Version☆ (Updated: "..update..")")
+  m1 = gg.choice({"| Timer Reseter |", "| Limitations |", "| 40m Simoleon |", "| Currency Pointer |", "| EXIT |", "| CONSOLE |", "| ABOUT |"},nil,"[BETA x"..deviceBit.."] Premium Version☆ (Updated: "..update..")")
   
   if m1 == 1 then
 		if blocker == 1 then
