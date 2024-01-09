@@ -1,7 +1,7 @@
 gg.showUiButton()
 local console = "CONSOLE v1.0\n----------------\n"..os.date("(%H:%M)  ").."Script executed.\n"
 
-local update = "15/1/2023"
+local update = "9/1/2024"
 local vp1Simcash = {}
 local timerOfset = {}
 local blocker = 0
@@ -175,113 +175,7 @@ function mainMenu()
 	end
   
   if m1 == 2 then
-    gg.alert("This function disabled for this reason because game updated.")
-    --[[gg.alert("WARNING\nGet this only once!  If your simcash drops below 2000, you can use it again.  Do not forget that your simcash exceeding 49k will result in a ban.")
-    gg.clearResults()
-    gg.searchNumber("2000;1;1;100;500::326",gg.TYPE_DWORD)
-    gg.refineNumber("2000")
-    gg.alert("Please Increment +1 your values and tell me.\nDont forgot. You have 15 sec.")
-    gg.setVisible(true)
-    gg.sleep("15000")
-    scp = gg.prompt({"Changed Value:"})
-    gg.setVisible(false)
-    gg.refineNumber(scp[1])
-    get4 = gg.getResults(1)
-    r7 = gg.getResults(1)
-    local o1 = {}
-    o1[1] = {}
-    o1[1].address = r7[1].address + 0xB8
-    o1[1].flags = gg.TYPE_DWORD
-    o1[1].freeze = false
-    gg.addListItems(o1)
-    gg.sleep("1000")
-    gg.toast("please wait..")
-    get5 = gg.getListItems("1")
-    vp1Simcash = get5[1].value
-    gg.sleep("1000")
-    ofsetValues = vp1Simcash
-    ofsetOffsets = -0x10
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = 48000
-    ofsetOffsets = 0
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = vp1Simcash
-    ofsetOffsets = 0x90
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = 48000
-    ofsetOffsets = 0xA0
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = vp1Simcash
-    ofsetOffsets = 0x130
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = 48000
-    ofsetOffsets = 0x140
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = vp1Simcash
-    ofsetOffsets = 0x1D0
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = 48000
-    ofsetOffsets = 0x1E0
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = vp1Simcash
-    ofsetOffsets = 0x270
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = 48000
-    ofsetOffsets = 0x280
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = vp1Simcash
-    ofsetOffsets = 0x310
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = 48000
-    ofsetOffsets = 0x320
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = vp1Simcash
-    ofsetOffsets = 0x3B0
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = 48000
-    ofsetOffsets = 0x3C0
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = vp1Simcash
-    ofsetOffsets = 0x450
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = 48000
-    ofsetOffsets = 0x460
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = vp1Simcash
-    ofsetOffsets = 0x4F0
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = 48000
-    ofsetOffsets = 0x500
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = vp1Simcash
-    ofsetOffsets = 0x590
-    ofsets()
-    gg.sleep("200")
-    ofsetValues = 48000
-    ofsetOffsets = 0x5A0
-    ofsets()
-    gg.sleep("500")
-    gg.clearResults()
-    gg.clearList()
-    gg.toast("\nSuccessful")]]
+    gg.alert("(Estimated limits) Dont reach this limits:\n\nSimoleon: 40m\nSimcash: 48k\nGolden key: 500\nPlatinum Key: 500\nNeo Simoleons: 10m (eta)")
   end
   
   if m1 == 3 then
